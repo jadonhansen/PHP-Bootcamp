@@ -1,10 +1,17 @@
-.container {
-    justify-content: center;
-    display: flex;
-    width: 100%;
+.box {
+	width: 1000px;
+    align-content: center;
+    background-color: rgb(145, 145, 145);
+    padding: 10px 10px;
+    border: 1px solid #646464;
+    border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	height: 100px;
 }
 
-.box {
+.vertone{
+	width: 50px;
+    align-content: center;
     background-color: rgb(145, 145, 145);
     padding: 10px 10px;
     border: 1px solid #646464;
@@ -12,16 +19,24 @@
     box-shadow: 10px 10px 10px black;
 }
 
-.header {
-    width: 1440px;
+.main{
+	width: 700px;
     align-content: center;
+    background-color: rgb(145, 145, 145);
+    padding: 10px 10px;
+    border: 1px solid #646464;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
 }
 
-.row {
-
-}
-
-.col {
+.verttwo{
+	width: 50px;
+    align-content: center;
+    background-color: rgb(145, 145, 145);
+    padding: 10px 10px;
+    border: 1px solid #646464;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
 }
 
 body {
