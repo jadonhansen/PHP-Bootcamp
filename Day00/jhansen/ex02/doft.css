@@ -1,0 +1,29 @@
+.container {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    background-color: rgb(145, 145, 145);
+    padding: 10px 10px;
+    border: 1px solid #646464;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.header {
+    width: 1440px;
+    align-content: center;
+}
+
+.row {
+
+}
+
+.col {
+}
+
+body {
+    background-color: #505050;
+}
