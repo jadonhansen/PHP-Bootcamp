@@ -1,0 +1,88 @@
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
+td{
+    empty-cells: hide;
+    border: 1px solid black;
+    text-align: left;
+    height: 50px;
+    width: 50px;
+}
+.num{
+    font-size: 100%;
+}
+.symbol{
+    font: bold;
+    font-size: 200%;
+    text-align: center;
+}
+.weight{
+    text-align: right;
+    font-size: 100%;
+}
+.special{
+    text-align: center;
+}
+body{
+    background-color: rgb(93, 217, 233);
+}
+@media only screen and (max-width: 2300px) and (min-width: 1001px){
+    table td tr{
+        size: 100%;
+    }
+    .num{
+        font-size: 100%;
+         }
+    .symbol{
+        font-size: 100%;
+        }
+    .weight{
+         font-size: 100%;
+        }
+}
+@media only screen and (max-width: 1000px) and (min-width: 651px){
+    table td tr{
+        size: 80%;
+         }
+    .num{
+        font-size: 80%;
+         }
+    .symbol{
+        font-size: 80%;
+        }
+    .weight{
+         font-size: 80%;
+        }
+}
+@media only screen and (max-width: 650px) and (min-width: 301px){
+    table td tr{
+        size: 70%;
+    }
+    .num{
+        font-size: 70%;
+         }
+    .symbol{
+        font-size: 70%;
+        }
+    .weight{
+         font-size: 70%;
+        }
+}
+@media only screen and (max-width: 300px) and (min-width: 100px){
+    table td tr{
+        size: 35%;
+    }
+    .num{
+        font-size: 35%;
+         }
+    .symbol{
+        font-size: 35%;
+        }
+    .weight{
+         font-size: 35%;
+        }
+}
