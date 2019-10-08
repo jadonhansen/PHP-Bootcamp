@@ -30,7 +30,7 @@ td{
 body{
     background-color: rgb(93, 217, 233);
 }
-@media only screen and (max-width: 2300px) and (min-width: 1001px){
+@media only screen and (max-width: 2500px) and (min-width: 1201px){
     table td tr{
         size: 100%;
     }
@@ -43,46 +43,75 @@ body{
     .weight{
          font-size: 100%;
         }
+    .special{
+        font-size: 100%;
+        }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1001px){
+    table td tr{
+        size: 85%;
+    }
+    .num{
+        font-size: 85%;
+         }
+    .symbol{
+        font-size: 85%;
+        }
+    .weight{
+         font-size: 85%;
+        }
+    .special{
+            font-size: 85%;
+        }
 }
 @media only screen and (max-width: 1000px) and (min-width: 651px){
     table td tr{
-        size: 90%;
+        size: 70%;
          }
-    .num{
-        font-size: 80%;
-         }
-    .symbol{
-        font-size: 90%;
-        }
-    .weight{
-         font-size: 80%;
-        }
-}
-@media only screen and (max-width: 650px) and (min-width: 301px){
-    table td tr{
-        size: 80%;
-    }
     .num{
         font-size: 70%;
          }
     .symbol{
-        font-size: 80%;
+        font-size: 70%;
         }
     .weight{
          font-size: 70%;
         }
+    .special{
+            font-size: 70%;
+        }
 }
-@media only screen and (max-width: 300px) and (min-width: 100px){
+@media only screen and (max-width: 650px) and (min-width: 201px){
     table td tr{
-        size: 50%;
+        size: 40%;
     }
     .num{
         font-size: 40%;
          }
     .symbol{
-        font-size: 50%;
+        font-size: 40%;
         }
     .weight{
          font-size: 40%;
+        }
+    .special{
+            font-size: 40%;
+        }
+}
+@media only screen and (max-width: 200px) and (min-width: 0px){
+    table td tr{
+        size: 5%;
+    }
+    .num{
+        font-size: 5%;
+         }
+    .symbol{
+        font-size: 5%;
+        }
+    .weight{
+         font-size: 5%;
+        }
+    .special{
+            font-size: 5%;
         }
 }
