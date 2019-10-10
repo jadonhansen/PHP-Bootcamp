@@ -8,7 +8,7 @@
     while($matches[$i])
         $i++;
     if($i != 8)
-        echo("Wrong Format");
+        echo("Wrong Format\n");
     else
     {
     if (strcmp("janvier", $matches[3] == 0))
