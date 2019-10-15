@@ -1,8 +1,8 @@
 INSERT INTO ft_table (`login`,`group`,`creation_date`)
 SELECT 
 	`last_name`,
-    'other'AS `group`
-    `birthdate`,
+    'other' AS `group`,
+    `birthdate`
 FROM user_card
 WHERE
 	(`last_name` LIKE '%a%') AND 

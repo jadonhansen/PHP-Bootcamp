@@ -1,3 +1,2 @@
-DELETE 
-FROM ft_table
+DELETE FROM ft_table
 LIMIT 5;

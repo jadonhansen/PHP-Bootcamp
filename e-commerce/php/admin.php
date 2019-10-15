@@ -20,7 +20,7 @@
 				<ul>
 					<li><a href="../index.html"><img src="../images/Logo.png" alt="My Logo" class="logo"></a></li>
 					<li><a href="../index.html">Home</a></li>
-					<li><a href="products.html">Products</a></li>
+					<li><a href="../pages/products.html">Products</a></li>
 				</ul>
 			</div>
 		</div>
