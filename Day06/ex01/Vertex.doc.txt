@@ -1,0 +1,17 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles X, Y , Z , W coordniates and colors.
+
+An instance can be contructed from either a X, Y, Z value:
+new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );
+
+Or with a optional W values:
+new Vertex( array( 'x' => 9.0, 'y' => 9.0, 'z' => 9.0, 'w' => 3.0 ) );
+
+Or with a optional color values:
+new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 1.0, 'color' => $blue  ) );
+
+X, Y, Z, W values are intergers.
+Color value is constructed from the Color class.
+Negative are left as is.
+Any other use is undefined behaviour.
+---------------------------------------------------------------------- Vertex ->
