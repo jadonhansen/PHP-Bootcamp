@@ -38,8 +38,7 @@ class Vertex
         return (vsprintf("Vertex( x: %0.2f, y: %0.2f, z:%0.2f, w:%0.2f )", array($this->_x, $this->_y, $this->_z, $this->_w)));
     }
     public static function doc() {
-        echo file_get_contents("../ex01/Vertex.doc.txt");
-        echo PHP_EOL;
+        echo file_get_contents("Vertex.doc.txt")."\n";
     }
     public function get_X() {
         return ($this->_x);

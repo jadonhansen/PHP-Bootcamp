@@ -38,6 +38,7 @@ class Color
         return (vsprintf("Color( red: %3d, green: %3d, blue: %3d )", array($this->red, $this->green, $this->blue)));
     }
     public static function doc() {
-        echo file_get_contents("../ex00/Color.doc.txt")."\n";
+        echo file_get_contents("Color.doc.txt");
+        echo PHP_EOL;
     }
 }

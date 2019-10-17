@@ -29,7 +29,7 @@ class Vector {
         return (vsprintf("Vector( x:%0.2f, y:%0.2f, z:%0.2f, w:%0.2f )", array($this->_x, $this->_y, $this->_z, $this->_w)));
     }
     static function doc () {
-        echo file_get_contents("../ex02/Vector.doc.txt")."\n";
+        echo file_get_contents("./Vector.doc.txt")."\n";
     }
     public function magnitude() {
         $new = (float)(sqrt(pow($this->_x, 2) + pow($this->_y, 2) + pow($this->_z, 2)));
