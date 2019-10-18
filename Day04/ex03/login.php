@@ -1,15 +1,13 @@
 <?php
+    require 'auth.php';
+    session_start();
 
-require 'auth.php';
-
-session_start();
-
-if (auth($_GET['login'], $_GET['passwd'])) {
-    $_SESSION['loggued_on_user'] = $_GET['login'];
-    echo "OK\n";
-}
-else {
-    $_SESSION['loggued_on_user'] = "";
-    echo "ERROR\n";
-}
+    if ($_GET['login'] && $_GET['passwd'] && auth($_GET['login'], $_GET['passwd'])) {
+        $_SESSION['loggued_on_user'] = $_GET['login'];
+        echo "OK\n";
+    }
+    else {
+        $_SESSION['loggued_on_user'] = "";
+        echo "ERROR\n";
+    }
 ?>
