@@ -1,5 +1,5 @@
 <?php
-    if ($_POST['login'] && $_POST['oldpw'] && $_POST['newpw'] && $_POST['submit'] && $_POST['submit'] === "Modify") {
+    if ($_POST['login'] && $_POST['oldpw'] && $_POST['newpw'] && $_POST['submit'] && $_POST['submit'] === "OK") {
         $data = file_get_contents("../private/passwd");
         $unserialized = unserialize($data);
 		foreach ($unserialized as $_ => $user)
