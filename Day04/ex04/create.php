@@ -1,5 +1,5 @@
 <?php
-    if ($_POST['login'] && $_POST['passwd'] && $_POST['submit'] && $_POST['submit'] === "OK") {
+    if ($_POST['login'] && $_POST['passwd'] && $_POST['submit'] && $_POST['submit'] === "Create") {
         if (!file_exists("../private")) {
             mkdir("../private");
         }
@@ -15,7 +15,7 @@
             }
         }
         if ($check) {
-            echo "<script>alert('ERROR')</script>";
+            echo "<script>alert('ERROR: Username taken!')</script>";
             echo "<script>window.open('create.html','_self')</script>";
         } 
         else {
@@ -23,8 +23,8 @@
             $tmp['passwd'] = hash('whirlpool', $_POST['passwd']);
             $data[] = $tmp;
             file_put_contents('../private/passwd', serialize($data));
+            echo "OK\n";
             header("Location: index.html");
-            echo "<script>alert('OK')</script>"; //
         }
     }
     else {
