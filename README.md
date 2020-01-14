@@ -2,6 +2,7 @@
 WTC 42 PHP/Web Dev. Bootcamp
 
 Day 00: 90%
+
 Day 01: 87%
 Day 02: 60%
 Day 03: 100%
